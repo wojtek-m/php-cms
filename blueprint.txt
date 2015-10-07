@@ -1,0 +1,51 @@
+
+Public Area:
+- navigation
+- page content
+- read only
+
+
+Admin Area:
+
+Login Page
+    form
+        username
+        password
+        
+Admin Page
+    manage content
+    manage admins
+    logout
+    
+    Manage Content
+        navigation
+        subject CRUD
+        pages CRUD
+    
+    Manage Admins
+        admins CRUD
+        
+    Logout
+        do logout
+        back to login
+        
+// Data models
+
+subjects
+    id
+    menu_name
+    position
+    visible
+    
+pages
+    id
+    subject_id
+    menu_name
+    position
+    visible
+    content
+
+admins
+    id
+    username
+    hashed_password
