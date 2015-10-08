@@ -12,14 +12,24 @@ body {
     background-color: #FFFFED;
 }
 
+#top-header {
+    padding: 4px 0 4px 0;
+    width: 100%;
+    min-height: 25px;
+    background-color: #999966;
+}
+
 nav {
-    width: 30%;
+    padding: 4px 1px 4px 1px;
+    background-color: #996633;
+    width: 20%;
+    min-height: 85%;
     float: left;
 }
 
 main {
-    width: 65%;
-    min-height: 80%;
+    width: 75%;
+    min-height: 85%;
     float: right;
 }
 
